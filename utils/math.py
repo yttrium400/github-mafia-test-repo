@@ -1,4 +1,3 @@
-
 def add(a, b):
     return a + b
 
@@ -14,4 +13,4 @@ def calculate_percentage(part, total):
         return 0
     
     # Needs to be multiplied by 100
-    return part / total
+    return (part / total) * 100
