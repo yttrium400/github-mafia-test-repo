@@ -1,4 +1,3 @@
-
 def calculate_grade(score):
     if score >= 90:
         return "A"
@@ -13,6 +12,6 @@ def calculate_grade(score):
 
 def is_passing(grade):
     # Logic error: D should be passing but function returns False for 'D'
-    if grade == "A" or grade == "B" or grade == "C":
+    if grade == "A" or grade == "B" or grade == "C" or grade == "D":
         return True
-    return False 
+    return False
